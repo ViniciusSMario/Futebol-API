@@ -1,0 +1,91 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*
+   * Custom translucent site header
+   */
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header {
+    color: #fff;
+    background-color: rgb(50, 230, 44);
+    height: 580px;
+}
+
+#header p {
+    margin-top: 50px;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
+
+
+/* brasileirao */
+
+.brasileirao {
+    padding: 5%;
+    height: 1080px;
+    background-color: #c3c3c354;
+}
+
+.brasileirao h2 {
+    text-align: center;
+}
+
+.brasileirao h3 {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(50, 230, 44);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.image-cbf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
